@@ -24,6 +24,7 @@ module.exports = {
     "@typescript-eslint/unbound-method": "off",
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/restrict-plus-operands": "off"
+    "@typescript-eslint/restrict-plus-operands": "off",
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 };

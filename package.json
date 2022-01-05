@@ -1,9 +1,9 @@
 {
-  "name": "fe-lib-template",
+  "name": "icons",
   "private": true,
   "version": "0.0.1",
   "author": "Fox.ONE",
-  "repository": "https://github.com/fox-one/fe-lib-template",
+  "repository": "https://github.com/fox-one/icons",
   "license": "GPL 3.0",
   "workspaces": [
     "packages/*"
