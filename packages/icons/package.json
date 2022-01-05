@@ -1,6 +1,6 @@
 {
   "name": "@foxone/icons",
-  "version": "0.0.2-0",
+  "version": "3.0.1-51",
   "main": "./build/index.umd.js",
   "module": "./build/index.esm.js",
   "unpkg": "./build/index.min.js",
