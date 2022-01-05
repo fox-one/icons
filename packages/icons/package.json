@@ -22,7 +22,7 @@
     "vue-property-decorator": "^9.1.2"
   },
   "devDependencies": {
-    "@foxone/uikit": "3.0.1-51",
+    "@foxone/uikit": "^3.0.1-51",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
