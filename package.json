@@ -1,0 +1,23 @@
+{
+  "name": "fe-lib-template",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Fox.ONE",
+  "repository": "https://github.com/fox-one/fe-lib-template",
+  "license": "GPL 3.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "resolutions": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "foxone-dev-build-ts",
+    "build:release": "foxone-ci-ghact-build",
+    "lint": "foxone-dev-run-lint",
+    "test": "foxone-dev-run-test --coverage --passWithNoTests"
+  },
+  "dependencies": {
+    "@foxone/dev": "^0.2.17"
+  }
+}
