@@ -1,6 +1,6 @@
 {
   "name": "@foxone/icons",
-  "version": "3.0.1-51",
+  "version": "3.0.1-52",
   "main": "./build/index.esm.js",
   "module": "./build/index.esm.js",
   "scripts": {
