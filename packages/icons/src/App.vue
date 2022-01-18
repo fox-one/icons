@@ -2,19 +2,19 @@
   <v-app>
     <v-container>
       <h3 class="mt-10">3P</h3>
-      <icons type="3p" />
+      <icons type="3p" :color="color" />
 
       <h3 class="mt-10">4P</h3>
-      <icons type="4p" />
+      <icons type="4p" :color="color" />
 
       <h3 class="mt-10">6P</h3>
-      <icons type="6p" />
+      <icons type="6p" :color="color" />
 
-      <h3 class="mt-10">8P</h3>
-      <icons type="8p" />
+      <h3 class="mt-10">Colorful</h3>
+      <icons type="colorful" :color="color" />
 
-      <h3 class="mt-10">colorful</h3>
-      <icons type="colorful" />
+      <h3 class="mt-10">Rest</h3>
+      <icons :color="color" />
 
       <div class="my-10">
         <v-col>

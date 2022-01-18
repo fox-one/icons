@@ -8,25 +8,12 @@
     fill="none"
   >
     <path
-      d="M5.25 18.75H18.75"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      d="M12.75 4.5C12.75 4.08579 12.4142 3.75 12 3.75C11.5858 3.75 11.25 4.08579 11.25 4.5V14.0459L7.22703 10.023C6.93414 9.73008 6.45926 9.73008 6.16637 10.023C5.87348 10.3159 5.87348 10.7907 6.16637 11.0836L11.4697 16.3869C11.7626 16.6798 12.2374 16.6798 12.5303 16.3869L17.8336 11.0836C18.1265 10.7907 18.1265 10.3159 17.8336 10.023C17.5407 9.73008 17.0659 9.73008 16.773 10.023L12.75 14.0459V4.5Z"
+      fill="currentColor"
     ></path>
     <path
-      d="M17.3033 10.5533L12 15.8566L6.6967 10.5533"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    ></path>
-    <path
-      d="M12 15.75V4.5"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      d="M4.5 18.75C4.5 18.3358 4.83579 18 5.25 18H18.75C19.1642 18 19.5 18.3358 19.5 18.75C19.5 19.1642 19.1642 19.5 18.75 19.5H5.25C4.83579 19.5 4.5 19.1642 4.5 18.75Z"
+      fill="currentColor"
     ></path>
   </svg>
 </template>

@@ -7,16 +7,16 @@ module.exports = {
     port: 8088
   },
 
-  css: {
-    loaderOptions: {
-      sass: {
-        prependData: "@import '@/styles/variables.scss'"
-      },
-      scss: {
-        prependData: "@import '@/styles/variables.scss';"
-      }
-    }
-  },
+  // css: {
+  //   loaderOptions: {
+  //     sass: {
+  //       prependData: "@import '@/styles/variables.scss'"
+  //     },
+  //     scss: {
+  //       prependData: "@import '@/styles/variables.scss';"
+  //     }
+  //   }
+  // },
 
   chainWebpack: (config) => {
     config

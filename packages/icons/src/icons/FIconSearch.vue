@@ -7,21 +7,11 @@
     aria-hidden="true"
     fill="none"
   >
-    <circle
-      cx="11.25"
-      cy="11.25"
-      r="6"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    ></circle>
     <path
-      d="M15.6055 15.6054L18.6055 18.6054"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M11 4.25C7.27208 4.25 4.25 7.27208 4.25 11C4.25 14.7279 7.27208 17.75 11 17.75C12.5938 17.75 14.0585 17.1976 15.2133 16.2739L18.0751 19.1357C18.368 19.4286 18.8429 19.4286 19.1357 19.1358C19.4286 18.8429 19.4286 18.368 19.1358 18.0751L16.2739 15.2132C17.1977 14.0585 17.75 12.5937 17.75 11C17.75 7.27208 14.7279 4.25 11 4.25ZM5.75 11C5.75 8.10051 8.10051 5.75 11 5.75C13.8995 5.75 16.25 8.10051 16.25 11C16.25 13.8995 13.8995 16.25 11 16.25C8.10051 16.25 5.75 13.8995 5.75 11Z"
+      fill="currentColor"
     ></path>
   </svg>
 </template>

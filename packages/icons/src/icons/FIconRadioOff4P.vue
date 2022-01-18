@@ -7,17 +7,12 @@
     aria-hidden="true"
     fill="none"
   >
-    <rect
-      x="3"
-      y="3"
-      width="10"
-      height="10"
-      rx="5"
-      stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    ></rect>
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M1.25 8C1.25 4.27208 4.27208 1.25 8 1.25C11.7279 1.25 14.75 4.27208 14.75 8C14.75 11.7279 11.7279 14.75 8 14.75C4.27208 14.75 1.25 11.7279 1.25 8ZM8 2.75C5.10051 2.75 2.75 5.10051 2.75 8C2.75 10.8995 5.10051 13.25 8 13.25C10.8995 13.25 13.25 10.8995 13.25 8C13.25 5.10051 10.8995 2.75 8 2.75Z"
+      fill="currentColor"
+    ></path>
   </svg>
 </template>
 

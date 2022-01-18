@@ -4,12 +4,12 @@
   "version": "3.0.1-51",
   "author": "Fox.ONE",
   "repository": "https://github.com/fox-one/icons",
-  "license": "GPL 3.0",
+  "license": "GPL-3.0",
   "workspaces": [
     "packages/*"
   ],
   "resolutions": {
-    "typescript": "^4.2.4"
+    "typescript": "4.2.4"
   },
   "scripts": {
     "build": "foxone-dev-build-ts",

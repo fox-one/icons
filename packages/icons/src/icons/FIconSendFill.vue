@@ -1,0 +1,23 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M19.4011 13.7432C20.7604 12.9786 20.7604 11.0215 19.4011 10.2569L9.48052 4.67657C8.14732 3.92664 6.5 4.89007 6.5 6.41972V11H13C13.5523 11 14 11.4477 14 12C14 12.5523 13.5523 13 13 13H6.5V17.5803C6.5 19.11 8.14732 20.0734 9.48052 19.3235L19.4011 13.7432Z"
+      fill="currentColor"
+    ></path>
+  </svg>
+</template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component({ name: "FIconSendFill" })
+export default class FIconSendFill extends Vue {}
+</script>
