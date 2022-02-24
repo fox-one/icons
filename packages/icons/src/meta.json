@@ -243,6 +243,7 @@
     { "name": "ClockIn", "componentName": "FIconClockInFill" },
     { "name": "Comment", "componentName": "FIconCommentFill" },
     { "name": "Comment4P", "componentName": "FIconComment4PFill" },
+    { "name": "CommentA", "componentName": "FIconCommentAFill" },
     { "name": "Connect3P", "componentName": "FIconConnect3PFill" },
     { "name": "Copy", "componentName": "FIconCopyFill" },
     { "name": "Copy4P", "componentName": "FIconCopy4PFill" },
@@ -349,6 +350,8 @@
     { "name": "LeafBrand", "componentName": "FIconLeafBrand" },
     { "name": "LeafLogo", "componentName": "FIconLeafLogo" },
     { "name": "RingsBrand", "componentName": "FIconRingsBrand" },
-    { "name": "RingsLogo", "componentName": "FIconRingsLogo" }
+    { "name": "RingsLogo", "componentName": "FIconRingsLogo" },
+    { "name": "WaveBrand", "componentName": "FIconWaveBrand" },
+    { "name": "WaveLogo", "componentName": "FIconWaveLogo" }
   ]
 }
