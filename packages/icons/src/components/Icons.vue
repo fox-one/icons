@@ -2,7 +2,14 @@
   <div>
     <div class="icons">
       <div v-for="(icon, index) in icons" :key="index" class="icon">
-        <icon :key="index + '_1'" :icon="icon" :color="color" :size="size" />
+        <div v-if="icon === 'divider'" class="divider">/</div>
+        <icon
+          v-else
+          :key="index + '_1'"
+          :icon="icon"
+          :color="color"
+          :size="size"
+        />
       </div>
     </div>
   </div>
@@ -61,5 +68,12 @@ export default Icons;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 16px;
   row-gap: 16px;
+
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
 }
 </style>

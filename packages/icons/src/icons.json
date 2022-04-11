@@ -76,6 +76,13 @@
     "FIconMoon4P",
     "FIconHorn4P",
     "FIconBlock4P",
+    "FIconBid4P",
+    "FIconDiscover4P",
+    "FIconUsd4P",
+    "FIconProfit4P",
+    "FIconGainedCrypto4P",
+
+    "divider",
 
     "FIconChevronLeft4PBold",
     "FIconChevronRight4PBold",
@@ -141,7 +148,12 @@
     "FIconMoon4PFill",
     "FIconHorn4PFill",
     "FIconBlock4PBold",
-    "FIconId4PFill"
+    "FIconId4PFill",
+    "FIconBid4PFill",
+    "FIconDiscover4PFill",
+    "FIconUsd4PBold",
+    "FIconIncrease4PFill",
+    "FIconDecrease4PFill"
   ],
   "6P": [
     "FIconHomeFill",
@@ -162,7 +174,7 @@
     "FIconCommentAFill",
     "FIconClockInFill",
     "FIconUnSelect",
-    "FIconStreamingA",
+    "FIconStreamingAFill",
     "FIconChevronLeft",
     "FIconChevronRight",
     "FIconChevronDown",
@@ -232,6 +244,13 @@
     "FIconDiscord",
     "FIconReddit",
     "FIconTelegram",
+    "FIconAttachment",
+    "FIconDocumentA",
+    "FIconBullet",
+    "FIconCancelClokeIn",
+
+    "divider",
+
     "FIconChevronLeftBold",
     "FIconChevronRightBold",
     "FIconChevronDownBold",
@@ -302,6 +321,10 @@
     "FIconTwitterFill",
     "FIconDiscordFill",
     "FIconRedditFill",
-    "FIconTelegramFill"
+    "FIconTelegramFill",
+    "FIconBidFill",
+    "FIconSpeedUpFill",
+    "FIconDocumentAFill",
+    "FIconPicFill"
   ]
 }
