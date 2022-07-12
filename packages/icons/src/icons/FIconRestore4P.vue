@@ -16,9 +16,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconRestore4P" })
-export default class FIconRestore4P extends Vue {}
+<script>
+export default {
+  name: "FIconRestore4P"
+};
 </script>

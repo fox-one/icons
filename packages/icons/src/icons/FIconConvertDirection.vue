@@ -18,9 +18,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconConvertDirection" })
-export default class FIconConvertDirection extends Vue {}
+<script>
+export default {
+  name: "FIconConvertDirection"
+};
 </script>

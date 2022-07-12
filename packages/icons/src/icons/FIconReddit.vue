@@ -16,9 +16,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconReddit" })
-export default class FIconReddit extends Vue {}
+<script>
+export default {
+  name: "FIconReddit"
+};
 </script>

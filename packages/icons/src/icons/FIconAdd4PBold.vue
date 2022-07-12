@@ -14,9 +14,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconAdd4PBold" })
-export default class FIconAdd4PBold extends Vue {}
+<script>
+export default {
+  name: "FIconAdd4PBold"
+};
 </script>

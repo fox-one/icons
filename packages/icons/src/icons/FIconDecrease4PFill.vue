@@ -15,9 +15,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconDecrease4PFill" })
-export default class FIconDecrease4PFill extends Vue {}
+<script>
+export default {
+  name: "FIconDecrease4PFill"
+};
 </script>

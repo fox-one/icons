@@ -67,11 +67,10 @@ const getElementCode = (componentName, svg, style) => {
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "${componentName}" })
-export default class ${componentName} extends Vue {}
+<script>
+export default  {
+  name: "${componentName}"
+}
 </script>
 `;
 

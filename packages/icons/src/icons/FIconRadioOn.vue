@@ -20,9 +20,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconRadioOn" })
-export default class FIconRadioOn extends Vue {}
+<script>
+export default {
+  name: "FIconRadioOn"
+};
 </script>

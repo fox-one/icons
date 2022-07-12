@@ -22,9 +22,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconMenu4P" })
-export default class FIconMenu4P extends Vue {}
+<script>
+export default {
+  name: "FIconMenu4P"
+};
 </script>

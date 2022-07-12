@@ -20,9 +20,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconEditFill" })
-export default class FIconEditFill extends Vue {}
+<script>
+export default {
+  name: "FIconEditFill"
+};
 </script>

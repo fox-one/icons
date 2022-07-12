@@ -22,9 +22,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconStreaming4P" })
-export default class FIconStreaming4P extends Vue {}
+<script>
+export default {
+  name: "FIconStreaming4P"
+};
 </script>

@@ -16,9 +16,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconRadioOff4PBold" })
-export default class FIconRadioOff4PBold extends Vue {}
+<script>
+export default {
+  name: "FIconRadioOff4PBold"
+};
 </script>

@@ -15,9 +15,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconRemoveHex4PFill" })
-export default class FIconRemoveHex4PFill extends Vue {}
+<script>
+export default {
+  name: "FIconRemoveHex4PFill"
+};
 </script>

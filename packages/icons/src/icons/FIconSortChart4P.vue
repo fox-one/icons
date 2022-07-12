@@ -31,9 +31,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconSortChart4P" })
-export default class FIconSortChart4P extends Vue {}
+<script>
+export default {
+  name: "FIconSortChart4P"
+};
 </script>

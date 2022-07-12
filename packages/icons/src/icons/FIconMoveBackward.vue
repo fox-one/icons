@@ -24,9 +24,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconMoveBackward" })
-export default class FIconMoveBackward extends Vue {}
+<script>
+export default {
+  name: "FIconMoveBackward"
+};
 </script>

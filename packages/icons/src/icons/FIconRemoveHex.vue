@@ -20,9 +20,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconRemoveHex" })
-export default class FIconRemoveHex extends Vue {}
+<script>
+export default {
+  name: "FIconRemoveHex"
+};
 </script>

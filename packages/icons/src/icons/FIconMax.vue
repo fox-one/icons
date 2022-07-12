@@ -18,9 +18,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconMax" })
-export default class FIconMax extends Vue {}
+<script>
+export default {
+  name: "FIconMax"
+};
 </script>

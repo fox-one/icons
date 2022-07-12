@@ -15,9 +15,8 @@
   </svg>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-
-@Component({ name: "FIconCheckBoxOnSquareFill" })
-export default class FIconCheckBoxOnSquareFill extends Vue {}
+<script>
+export default {
+  name: "FIconCheckBoxOnSquareFill"
+};
 </script>
