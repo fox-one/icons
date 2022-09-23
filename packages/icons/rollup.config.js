@@ -3,7 +3,7 @@ import css from "rollup-plugin-css-porter";
 import filesize from "rollup-plugin-filesize";
 import sass from "rollup-plugin-sass";
 import typescript from "rollup-plugin-typescript2";
-import { terser } from "rollup-plugin-terser";
+// import { terser } from "rollup-plugin-terser";
 import vue from "rollup-plugin-vue";
 import pkg from "./package.json";
 
@@ -30,8 +30,8 @@ export default {
       format: "esm", // the preferred format
       compact: true,
       exports,
-      sourcemap,
-      plugins: [terser()]
+      sourcemap
+      // plugins: [terser()]
     }
     // {
     //   // Universal Module Definition, works as amd, cjs and iife all in one
