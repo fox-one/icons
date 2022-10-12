@@ -1,3 +1,21 @@
 {
-  "extends": "../../tsconfig.json"
+  "compilerOptions": {
+    "lib": ["es2015", "es2016", "es2017", "es2018", "dom", "dom.iterable"],
+    "downlevelIteration": true,
+    "strict": false,
+    "declaration": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "alwaysStrict": false,
+    "noUnusedLocals": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*.*", "shims-vue.d.ts", "shims-vue.d.ts"],
+  "exclude": ["node_modules"]
 }

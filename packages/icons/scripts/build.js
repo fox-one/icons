@@ -8,7 +8,7 @@ const styles = ["outline", "fill", "colorful"];
 
 const rootDir = path.join(__dirname, "../");
 const srcDir = path.join(rootDir, "src");
-const iconsDir = path.join(rootDir, "src");
+const iconsDir = path.join(rootDir, "src/icons");
 const svgDir = path.join(rootDir, "svg");
 
 const generateComponentCode = ({ componentName, filename, style }) => {
@@ -39,7 +39,7 @@ const build = () => {
     filenames.forEach((filename) => {
       const name = filename.replace(".svg", "");
       const { componentName } = parseName(name, style);
-      const entry = `export { ${componentName} } from "./${componentName}.vue"`;
+      const entry = `export { default as ${componentName} } from "./${componentName}.vue";`;
 
       generateComponentCode({ filename, componentName, style });
       entries.push(entry);
@@ -55,7 +55,7 @@ const build = () => {
     "utf-8"
   );
   fs.writeFileSync(
-    path.join(iconsDir, "index.js"),
+    path.join(iconsDir, "index.ts"),
     entries.join("\n"),
     "utf-8"
   );
