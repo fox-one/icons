@@ -10,13 +10,6 @@ const processSvg = (svg, style) => {
     { name: "removeTitle", active: true }
   ];
 
-  // if (style === "outline") {
-  //   plugins = [
-  //     ...plugins,
-  //     { name: "removeAttrs", params: { attrs: "(fill|stroke.*)" } }
-  //   ];
-  // }
-
   const optimized = optimize(svg, { plugins });
   const $ = cheerio.load(optimized.data);
 
@@ -37,17 +30,9 @@ const getAttrs = (svg, style) => {
     "aria-hidden": "true"
   };
 
-  const fill = {
-    // ":fill": "color"
-  };
+  const fill = {};
 
-  const stroke = {
-    fill: "none"
-    // ":stroke": "color",
-    // ":stroke-width": "width",
-    // "stroke-linecap": "round",
-    // "stroke-linejoin": "round"
-  };
+  const stroke = { fill: "none" };
 
   const attrs = Object.assign({}, base, style === "fill" ? fill : stroke);
 
@@ -58,20 +43,14 @@ const getAttrs = (svg, style) => {
 
 const getElementCode = (componentName, svg, style) => {
   const attrs = getAttrs(svg, style);
-  const content = style !== "colorful" ? processSvg(svg, style) : svg;
+  const content = processSvg(svg, style);
 
   const str = `
-<template>
-  <svg ${attrs}>
-    ${content}
-  </svg>
-</template>
+import Vue from "vue";
 
-<script>
-export default  {
-  name: "${componentName}"
-}
-</script>
+export const ${componentName} = Vue.extend({
+  template: '<svg ${attrs}>${content}</svg>'
+});
 `;
 
   return str;
