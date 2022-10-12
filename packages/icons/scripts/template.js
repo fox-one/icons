@@ -46,11 +46,17 @@ const getElementCode = (componentName, svg, style) => {
   const content = processSvg(svg, style);
 
   const str = `
-import Vue from "vue";
+<template>
+  <svg ${attrs}>
+    ${content}
+  </svg>
+</template>
 
-export const ${componentName} = Vue.extend({
-  template: '<svg ${attrs}>${content}</svg>'
-});
+<script>
+export default  {
+  name: "${componentName}"
+}
+</script>
 `;
 
   return str;

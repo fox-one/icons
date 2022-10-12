@@ -13,7 +13,7 @@ const svgDir = path.join(rootDir, "svg");
 
 const generateComponentCode = ({ componentName, filename, style }) => {
   const svgPath = path.join(svgDir, style, filename);
-  const componentPath = path.join(iconsDir, `${componentName}.ts`);
+  const componentPath = path.join(iconsDir, `${componentName}.vue`);
   const svg = fs.readFileSync(svgPath);
   const component = getElementCode(componentName, svg, style);
 
@@ -39,7 +39,7 @@ const build = () => {
     filenames.forEach((filename) => {
       const name = filename.replace(".svg", "");
       const { componentName } = parseName(name, style);
-      const entry = `export { ${componentName} } from "./${componentName}"`;
+      const entry = `export { ${componentName} } from "./${componentName}.vue"`;
 
       generateComponentCode({ filename, componentName, style });
       entries.push(entry);
@@ -55,7 +55,7 @@ const build = () => {
     "utf-8"
   );
   fs.writeFileSync(
-    path.join(iconsDir, "index.ts"),
+    path.join(iconsDir, "index.js"),
     entries.join("\n"),
     "utf-8"
   );
